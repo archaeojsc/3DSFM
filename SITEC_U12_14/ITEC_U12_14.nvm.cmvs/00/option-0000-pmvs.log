@@ -1,0 +1,103 @@
+
+pmvs2
+C:\Users\scardina\Documents\Projects\Active Projects\2014_DOT_1BOW00_Prattsville\maps\3DSFM\SITEC_U12_14\ITEC_U12_14.nvm.cmvs\00\
+option-0000
+--------------------------------------------------
+--- Summary of specified options ---
+# of timages: 15 (enumeration)
+# of oimages: 0 (enumeration)
+level: 1  csize: 2
+threshold: 0.7  wsize: 7
+minImageNum: 3  CPU: 8
+useVisData: 1  sequence: -1
+--------------------------------------------------
+Reading images: ***************
+2 Harris running ...3 Harris running ...4 Harris running ...5 Harris running ...7 Harris running ...8 Harris running ...9 Harris running ...11 Harris running ...1221 harris done
+DoG running...1193 harris done
+DoG running...1179 harris done
+DoG running...1212 harris done
+DoG running...1223 harris done
+DoG running...1194 harris done
+DoG running...1195 harris done
+DoG running...1226 harris done
+DoG running...17921792 dog done dog done
+
+12 13 Harris running ...Harris running ...1792 dog done
+14 Harris running ...1792 dog done
+15 Harris running ...1792 dog done
+16 Harris running ...1792 dog done
+17 Harris running ...1792 dog done
+18 Harris running ...1792 dog done
+1193 harris done
+DoG running...1201 harris done
+DoG running...1201 harris done
+DoG running...1164 harris done
+DoG running...1130 harris done
+DoG running...1158 harris done
+DoG running...1166 harris done
+DoG running...1792 dog done
+1792 dog done
+1792 dog done
+1792 dog done
+1792 dog done
+1792 dog done
+1792 dog done
+done
+adding seeds 
+(3,118)(4,0)(0,114)(6,0)(1,106)(8,7)(5,4)(10,8)(7,178)(2,64)(12,201)(11,145)(13,28)(9,51)(14,15)done
+---- Initial: 0 secs ----
+Total pass fail0 fail1 refinepatch: 65907 1283 61727 2897 4180
+Total pass fail0 fail1 refinepatch: 100 1.94668 93.6577 4.39559 6.34227
+Expanding patches...refinePatchBFGS failed!
+
+---- EXPANSION: 20 secs ----
+Total pass fail0 fail1 refinepatch: 169543 139945 9849 19749 159694
+Total pass fail0 fail1 refinepatch: 100 82.5425 5.80915 11.6484 94.1909
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.84795 0.576963
+140952 -> 139578 (99.0252%)	0 secs
+Filter Exact: ***************
+139578 -> 134494 (96.3576%)	0 secs
+FilterNeighbor:	134494 -> 128554 (95.5834%)	0 secs
+FilterGroups:	20
+128554 -> 127013 (98.8013%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 4 secs ----
+Total pass fail0 fail1 refinepatch: 31941 16638 4214 11089 27727
+Total pass fail0 fail1 refinepatch: 100 52.0898 13.1931 34.7171 86.8069
+FilterOutside
+mainbody: 
+Gain (ave/var): 1.07619 0.652254
+143651 -> 143548 (99.9283%)	0 secs
+Filter Exact: ***************
+143548 -> 139952 (97.4949%)	0 secs
+FilterNeighbor:	139952 -> 138650 (99.0697%)	0 secs
+FilterGroups:	20
+138650 -> 137476 (99.1533%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 3 secs ----
+Total pass fail0 fail1 refinepatch: 17662 9125 2625 5912 15037
+Total pass fail0 fail1 refinepatch: 100 51.6646 14.8624 33.473 85.1376
+FilterOutside
+mainbody: 
+Gain (ave/var): 1.30047 0.742655
+146601 -> 146515 (99.9413%)	0 secs
+Filter Exact: ***************
+146515 -> 143283 (97.7941%)	0 secs
+FilterNeighbor:	143283 -> 142632 (99.5457%)	0 secs
+FilterGroups:	20
+142632 -> 141554 (99.2442%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+---- Total: 0 secs ----

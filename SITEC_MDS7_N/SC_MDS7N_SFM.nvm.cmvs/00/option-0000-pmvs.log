@@ -1,0 +1,132 @@
+
+pmvs2
+C:\Users\scardina\Documents\Projects\Active Projects\2014_DOT_1BOW00_Prattsville\maps\3DSFM\SITEC_MDS7_N\SC_MDS7N_SFM.nvm.cmvs\00\
+option-0000
+--------------------------------------------------
+--- Summary of specified options ---
+# of timages: 30 (enumeration)
+# of oimages: 0 (enumeration)
+level: 1  csize: 2
+threshold: 0.7  wsize: 7
+minImageNum: 3  CPU: 8
+useVisData: 1  sequence: -1
+--------------------------------------------------
+Reading images: ******************************
+2 3 4 Harris running ...Harris running ...Harris running ...5 Harris running ...7 Harris running ...8 Harris running ...9 Harris running ...10 Harris running ...1118 harris done
+DoG running...1204 harris done
+DoG running...1128 harris done
+DoG running...1118 harris done
+DoG running...1117 harris done
+DoG running...1140 harris done
+DoG running...1111 harris done
+DoG running...1098 harris done
+DoG running...1792 dog done
+12 Harris running ...1792 dog done
+14 Harris running ...1792 dog done
+16 Harris running ...1792 dog done
+1792 dog done
+18 19 Harris running ...Harris running ...1792 dog done
+20 Harris running ...1183 harris done
+DoG running...1120 harris done
+DoG running...1154 harris done
+DoG running...1138 harris done
+DoG running...1117 harris done
+DoG running...1225 harris done
+DoG running...1792 dog done
+21 Harris running ...1792 dog done
+22 Harris running ...1792 dog done
+1160 harris done
+DoG running...23 Harris running ...1792 dog done
+24 Harris running ...1792 dog done
+1792 dog done
+25 Harris running ...26 Harris running ...1792 dog done
+27 Harris running ...1792 dog done
+29 Harris running ...1153 harris done
+DoG running...1222 harris done
+DoG running...1191 harris done
+DoG running...1162 harris done
+DoG running...1215 harris done
+DoG running...1153 harris done
+DoG running...1792 dog done
+30 Harris running ...1194 harris done
+DoG running...1792 dog done
+31 Harris running ...1792 dog done
+1131 harris done
+32 Harris running ...DoG running...1792 dog done
+33 Harris running ...1792 dog done
+34 Harris running ...1792 dog done
+35 Harris running ...1792 dog done
+36 Harris running ...1792 dog done
+37 Harris running ...1141 harris done
+DoG running...1102 harris done
+DoG running...1134 harris done
+DoG running...1186 harris done
+DoG running...1140 harris done
+DoG running...1145 harris done
+DoG running...1792 dog done
+1171 harris done
+DoG running...1792 dog done
+1792 dog done
+1792 dog done
+1792 dog done
+1792 dog done
+1792 dog done
+1792 dog done
+done
+adding seeds 
+(25,240)(21,271)(24,355)(27,224)(29,117)(12,502)(9,378)(28,35)(14,95)(26,1)(23,29)(20,57)(1,462)(18,378)(16,79)(17,3)(10,0)(22,0)(0,403)(2,19)(3,101)(11,0)(6,4)(5,3)(4,8)(19,76)(15,261)(8,90)(13,122)(7,18)done
+---- Initial: 0 secs ----
+Total pass fail0 fail1 refinepatch: 131537 6167 108711 16659 22826
+Total pass fail0 fail1 refinepatch: 100 4.68841 82.6467 12.6649 17.3533
+Expanding patches...
+---- EXPANSION: 38 secs ----
+Total pass fail0 fail1 refinepatch: 271604 246256 10715 14633 260889
+Total pass fail0 fail1 refinepatch: 100 90.6673 3.94508 5.38762 96.0549
+FilterOutside
+mainbody: 
+Gain (ave/var): 1.30018 0.907421
+250376 -> 246329 (98.3836%)	0 secs
+Filter Exact: ******************************
+246329 -> 240328 (97.5638%)	0 secs
+FilterNeighbor:	240328 -> 233390 (97.1131%)	0 secs
+FilterGroups:	23
+233390 -> 232068 (99.4336%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 5 secs ----
+Total pass fail0 fail1 refinepatch: 31173 19146 2734 9293 28439
+Total pass fail0 fail1 refinepatch: 100 61.4185 8.77041 29.8111 91.2296
+FilterOutside
+mainbody: 
+Gain (ave/var): 1.63241 1.01962
+251214 -> 250985 (99.9088%)	0 secs
+Filter Exact: ******************************
+250985 -> 247960 (98.7947%)	0 secs
+FilterNeighbor:	247960 -> 246736 (99.5064%)	0 secs
+FilterGroups:	24
+246736 -> 246124 (99.752%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 3 secs ----
+Total pass fail0 fail1 refinepatch: 13161 7688 1619 3854 11542
+Total pass fail0 fail1 refinepatch: 100 58.415 12.3015 29.2835 87.6985
+FilterOutside
+mainbody: 
+Gain (ave/var): 1.94044 1.16672
+253812 -> 253747 (99.9744%)	0 secs
+Filter Exact: ******************************
+253747 -> 251267 (99.0227%)	0 secs
+FilterNeighbor:	251267 -> 250759 (99.7978%)	0 secs
+FilterGroups:	25
+250759 -> 250214 (99.7827%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+---- Total: 0 secs ----
