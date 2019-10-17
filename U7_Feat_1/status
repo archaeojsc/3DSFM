@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "Texturing_1",
+    "nodeType": "Texturing",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_texturing  --input \"/home/scott/Documents/3DSFM/Coeymans_U7/U7_Feat_1/MeshroomCache/StructureFromMotion/b59d105e873cc5fddf41c8bfb37f016e3cfbff8d/sfm.abc\" --imagesFolder \"/home/scott/Documents/3DSFM/Coeymans_U7/U7_Feat_1/MeshroomCache/PrepareDenseScene/d6b8798c3ebee6b88782a74d56d166ff6ba03d80\" --inputDenseReconstruction \"/home/scott/Documents/3DSFM/Coeymans_U7/U7_Feat_1/MeshroomCache/Meshing/5798724437a3296dfa295c74b487986846cf1705/denseReconstruction.bin\" --inputMesh \"/home/scott/Documents/3DSFM/Coeymans_U7/U7_Feat_1/MeshroomCache/MeshFiltering/b2a96b01dadbe4cc9f236df820ee927d3a60ef0c/mesh.obj\" --textureSide 8192 --downscale 2 --outputTextureFileType png --unwrapMethod Basic --fillHoles False --padding 15 --maxNbImagesForFusion 3 --bestScoreThreshold 0.0 --angleHardThreshold 90.0 --forceVisibleByAllVertices False --flipNormals False --visibilityRemappingMethod PullPush --verboseLevel info --output \"/home/scott/Documents/3DSFM/Coeymans_U7/U7_Feat_1/MeshroomCache/Texturing/64f96a1f732f286929fb45b8bf919d906dac4d12\" ",
+    "env": null,
+    "startDateTime": "2019-07-17 08:56:31.718109",
+    "endDateTime": "2019-07-17 08:57:54.437147",
+    "elapsedTime": 82.71905064582825,
+    "hostname": "scott-desktop",
+    "sessionUid": "0aea287e-a88f-11e9-8063-bc5ff4d13f2a",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:01:22.719051"
+}

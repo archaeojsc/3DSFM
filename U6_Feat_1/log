@@ -1,0 +1,106 @@
+Program called with the following parameters:
+ * angleHardThreshold = 90
+ * bestScoreThreshold = 0
+ * downscale =  Unknown Type "j"
+ * fillHoles = 0
+ * flipNormals = 0
+ * forceVisibleByAllVertices = 0
+ * imagesFolder = "/home/scott/Documents/3DSFM/Coeymans_U6/U6_Feat_1/MeshroomCache/PrepareDenseScene/7f1dffd5cf4c43ec8fd905cc0c12c49c631a3a9f"
+ * input = "/home/scott/Documents/3DSFM/Coeymans_U6/U6_Feat_1/MeshroomCache/StructureFromMotion/f4ba9cdac4e1df3a44656886840fe2d2ba218ccc/sfm.abc"
+ * inputDenseReconstruction = "/home/scott/Documents/3DSFM/Coeymans_U6/U6_Feat_1/MeshroomCache/Meshing/44eb22e833e60d9d3333c857ecb40784ea5fdccc/denseReconstruction.bin"
+ * inputMesh = "/home/scott/Documents/3DSFM/Coeymans_U6/U6_Feat_1/MeshroomCache/MeshFiltering/90c4db525663ad0b115ce3774e96630332084ffa/mesh.obj"
+ * maxNbImagesForFusion = 3
+ * output = "/home/scott/Documents/3DSFM/Coeymans_U6/U6_Feat_1/MeshroomCache/Texturing/fce799ef20f65b0b9e587f1c4ffc6068fc241189"
+ * outputTextureFileType = "png"
+ * padding =  Unknown Type "j"
+ * textureSide =  Unknown Type "j"
+ * unwrapMethod = "Basic"
+ * verboseLevel = "info"
+ * visibilityRemappingMethod = "PullPush"
+
+[20:36:27.992655][info] Found 1 image dimension(s): 
+[20:36:27.992773][info] 	- [4160x2340]
+[20:36:28.000063][info] Overall maximum dimension: [4160x2340]
+[20:36:28.099570][info] Loading mesh from obj file: /home/scott/Documents/3DSFM/Coeymans_U6/U6_Feat_1/MeshroomCache/MeshFiltering/90c4db525663ad0b115ce3774e96630332084ffa/mesh.obj
+[20:36:28.262417][info] 	- # vertices: 510952
+	- # normals: 0
+	- # uv coordinates: 0
+	- # triangles: 1021578
+[20:36:29.181996][info] Mesh loaded: 
+	- #points: 510952
+	- # triangles: 1021578
+[20:36:29.495925][info] remapMeshVisibility based on triangles start.
+[20:36:31.200870][info] remapMeshVisibility done.
+[20:36:31.223795][info] Input mesh has no UV coordinates, start unwrapping (Basic)
+[20:36:31.224520][info] Generating UVs (textureSide: 8192; padding: 15).
+[20:36:31.224534][info] Creating texture charts.
+[20:36:33.276089][info] Packing texture charts (1021578 charts).
+[20:36:34.970842][info] Finalize packed charts (4771 charts).
+[20:36:35.051783][info] Creating texture atlases.
+[20:36:35.052570][info] 	- texture atlas 1
+[20:36:35.109034][info] Filled with 2711 charts.
+[20:36:35.112031][info] 	- texture atlas 2
+[20:36:35.149442][info] Filled with 2060 charts.
+[20:36:36.556924][info] Unwrapping done.
+[20:36:36.556969][info] Writing obj and mtl file.
+[20:36:37.610691][info] Writing done: 
+	- obj file: /home/scott/Documents/3DSFM/Coeymans_U6/U6_Feat_1/MeshroomCache/Texturing/fce799ef20f65b0b9e587f1c4ffc6068fc241189/texturedMesh.obj
+	- mtl file: /home/scott/Documents/3DSFM/Coeymans_U6/U6_Feat_1/MeshroomCache/Texturing/fce799ef20f65b0b9e587f1c4ffc6068fc241189/texturedMesh.mtl
+[20:36:37.610719][info] Generate textures.
+[20:36:37.700969][info] Generating texture for atlas 1/2 (736266 triangles).
+[20:36:40.575671][info] Reading pixel color.
+[20:36:40.955791][info]  - camera 1/22 (129288 triangles)
+[20:36:41.910023][info]  - camera 2/22 (96288 triangles)
+[20:36:42.668544][info]  - camera 3/22 (54020 triangles)
+[20:36:43.373778][info]  - camera 4/22 (137715 triangles)
+[20:36:44.106642][info]  - camera 5/22 (272533 triangles)
+[20:36:45.034944][info]  - camera 6/22 (97000 triangles)
+[20:36:45.961216][info]  - camera 7/22 (227852 triangles)
+[20:36:46.973111][info]  - camera 8/22 (92483 triangles)
+[20:36:47.823025][info]  - camera 9/22 (121966 triangles)
+[20:36:48.623994][info]  - camera 10/22 (171088 triangles)
+[20:36:49.508397][info]  - camera 11/22 (175355 triangles)
+[20:36:50.450926][info]  - camera 12/22 (84635 triangles)
+[20:36:51.293231][info]  - camera 13/22 (90786 triangles)
+[20:36:52.161056][info]  - camera 14/22 (77730 triangles)
+[20:36:52.940011][info]  - camera 15/22 (83153 triangles)
+[20:36:53.727418][info]  - camera 16/22 (275440 triangles)
+[20:36:54.796108][info]  - camera 17/22 (166364 triangles)
+[20:36:55.708798][info]  - camera 18/22 (128856 triangles)
+[20:36:56.654712][info]  - camera 19/22 (225003 triangles)
+[20:36:57.615566][info]  - camera 20/22 (36507 triangles)
+[20:36:58.351577][info]  - camera 21/22 (63433 triangles)
+[20:36:59.230054][info]  - camera 22/22 (121368 triangles)
+[20:37:00.065611][info] Edge padding (15 pixels).
+[20:37:02.548286][info] Computing final (average) color.
+[20:37:03.098430][info] Writing texture file: /home/scott/Documents/3DSFM/Coeymans_U6/U6_Feat_1/MeshroomCache/Texturing/fce799ef20f65b0b9e587f1c4ffc6068fc241189/texture_0.png
+[20:37:03.098472][info] Downscaling texture (2x).
+[20:37:15.116861][info] Generating texture for atlas 2/2 (285312 triangles).
+[20:37:16.073779][info] Reading pixel color.
+[20:37:16.463955][info]  - camera 1/22 (62573 triangles)
+[20:37:16.572676][info]  - camera 2/22 (23221 triangles)
+[20:37:16.639824][info]  - camera 3/22 (42397 triangles)
+[20:37:16.725026][info]  - camera 4/22 (72850 triangles)
+[20:37:16.831325][info]  - camera 5/22 (61090 triangles)
+[20:37:16.937211][info]  - camera 6/22 (59024 triangles)
+[20:37:17.068567][info]  - camera 7/22 (78039 triangles)
+[20:37:17.186489][info]  - camera 8/22 (51077 triangles)
+[20:37:17.288399][info]  - camera 9/22 (36643 triangles)
+[20:37:17.350142][info]  - camera 10/22 (70408 triangles)
+[20:37:17.454914][info]  - camera 11/22 (44333 triangles)
+[20:37:17.529458][info]  - camera 12/22 (36080 triangles)
+[20:37:17.594295][info]  - camera 13/22 (52448 triangles)
+[20:37:17.691136][info]  - camera 14/22 (38923 triangles)
+[20:37:17.754165][info]  - camera 15/22 (32863 triangles)
+[20:37:17.830463][info]  - camera 16/22 (68121 triangles)
+[20:37:17.944106][info]  - camera 17/22 (68816 triangles)
+[20:37:18.058296][info]  - camera 18/22 (52253 triangles)
+[20:37:18.144524][info]  - camera 19/22 (80021 triangles)
+[20:37:18.256234][info]  - camera 20/22 (24700 triangles)
+[20:37:18.304478][info]  - camera 21/22 (17734 triangles)
+[20:37:18.352476][info]  - camera 22/22 (62490 triangles)
+[20:37:18.471181][info] Edge padding (15 pixels).
+[20:37:21.159828][info] Computing final (average) color.
+[20:37:21.637894][info] Writing texture file: /home/scott/Documents/3DSFM/Coeymans_U6/U6_Feat_1/MeshroomCache/Texturing/fce799ef20f65b0b9e587f1c4ffc6068fc241189/texture_1.png
+[20:37:21.637941][info] Downscaling texture (2x).
+[20:37:32.365644][info] Task done in (s): 64.386000
